@@ -1,0 +1,40 @@
+body {
+	background: url("../img/pw_pattern.png") repeat; 		
+}
+
+
+
+/* POKEBALL */
+#pokeball {float: relative;}
+ 
+#pokered {position: absolute; height:150px; width:300px; background-color: #FF0000; top: 120px; margin-left:100px; border-radius: 400px 400px 0px 0px; transition: all 1s ease-in-out;}
+#pokeball:hover #pokered {top:20px; transition: all 1s ease-in-out;}
+#pokered img {border-radius: 400px 400px 0px 0px;}
+ 
+#pokewhite {position:relative; height:150px; width:300px; background-color: #fff; margin-top: -4px; margin-left:100px; border-radius: 0px 0px 400px 400px; transition: all 1s ease-in-out;}
+#pokeball:hover #pokewhite {top:-10px; transition: all 1s ease-in-out;}
+#pokewhite img {border-radius: 0px 0px 500px 500px;}
+ 
+#pokeblack {position:relative; height:14px; width:300px; background-color: #000; top:270px; margin-left:100px;}
+ 
+#pokecircle {position:fixed; height:45px; width:45px; background-color: #fff; top:247px; margin-left: 217px; border: #000 solid 10px; z-index:9999; border-radius: 400px 400px 400px 400px;}
+ 
+#pokehover {font-family: 'Overlock', cursive; top:230px; margin-left:500px; position:fixed; z-index:99999; transition: all 0.5s ease-in-out; font-size:55px; letter-spacing:2px; color: #000;}
+#pokeball:hover #pokehover {opacity:0; transition: all 0.5s ease-in-out;}
+
+
+ 
+/* */
+
+ 
+ 
+ 
+#pokedesc {width:290px; padding:5px; padding-top:0px; height:0px; background-color: #fff; color: #444444; position:relative; margin-left:100px; margin-top:264px; line-height:16px; font-size:11px; opacity:0; transition: all 1s ease-in-out; text-align:justify; overflow: hidden; text-align: center; font-family: 'Overlock', cursive;}
+ 
+#pokeball:hover #pokedesc {position: relative; margin-left: 500px; height: 74px; padding-top:35px; opacity:1; transition: all 1s ease-in-out; font-size: 30px; border-radius: 20px; text-align: center;}
+
+a:link, a:visited { color: #000; text-decoration: none;
+}
+
+a:active, a:hover { color: teal; font-size: 32px;
+}
