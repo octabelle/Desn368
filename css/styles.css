@@ -142,18 +142,6 @@ li[class*="heart"] {background:#f868d0;padding:12px 0;}
     -79px -23px no-repeat; left: -492px; width: 24px;}
 
 
-
-#panel1b a:hover {
-    }
-  #panel2b a:hover {
-   }
-  #panel3b a:hover {
-    }
-  #panel4b a:hover {
-   }
-
-
-
 html, body{
   margin:0px; padding:0px;
   background: url("../img/pw_pattern.png") repeat; 		
@@ -404,6 +392,7 @@ h3 + p + p + p{
 
 h3 + p:first-letter, h3 + p + p:first-letter, h3 + p + p + p:first-letter { font-weight: bold; 
 font-size: 14px; font-family: 'Roboto Slab', serif;}
+
 
 
 /* --------- */
