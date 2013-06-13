@@ -1,5 +1,3 @@
-
-
 /* footer nav */ 
 @import url(http://weloveiconfonts.com/api/?family=typicons);
 
@@ -185,6 +183,7 @@ header a{
   letter-spacing:3px; 
   font-weight:700;
 }
+
 .hero1.hero {
  background: url(../img/eeveebg.jpg);
   background-size:cover;
@@ -211,25 +210,21 @@ header a{
   background-position:center center;
   background-attachment:fixed;
 }
-
 .hero6.hero {background: url(../img/umbreonbg.jpg);
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
 }
-
 .hero7.hero {background: url(../img/leafeonbg.jpg);
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
 }
-
 .hero8.hero {background: url(../img/glaceonbg.jpg);
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
 }
-
 .hero, .content{
   text-align:left; 
   position:relative;
@@ -385,10 +380,12 @@ h3 + p {
 	text-indent:100px;
 	font-family: 'Roboto Slab', serif;
 }
+
 h3 + p + p {
 	text-indent:100px;
 	font-family: 'Roboto Slab', serif;
 }
+
 h3 + p + p + p{
 	text-indent:100px;
 	font-family: 'Roboto Slab', serif;
@@ -398,15 +395,14 @@ h3 + p:first-letter, h3 + p + p:first-letter, h3 + p + p + p:first-letter { font
 font-size: 14px; font-family: 'Roboto Slab', serif;}
 
 
-
 /* --------- */
 
 #leafeonrun  {
 	height: 32px;
     width: 32px;
-  -webkit-animation: vanilla 22s infinite;
-  -moz-animation: vanilla 22s infinite;
-  animation: vanilla 22s infinite;
+   -webkit-animation: vanilla 22s infinite;
+   -moz-animation: vanilla 22s infinite;
+   animation: vanilla 22s infinite;
 }
 
 
@@ -414,99 +410,150 @@ font-size: 14px; font-family: 'Roboto Slab', serif;}
   
   0%{
       -webkit-transform: translate(625px);
+	  -moz-transform: translate(625px);
 	  animation-delay: 3s;
 	  }
   
   50%{ 
       -webkit-transform: translate(315px);
-	 animation-delay: 3s;
+	  -moz-transform: translate(315px);
+	  animation-delay: 3s;
 	 }
 
   100%{
      -webkit-transform: translate(0px);
+	 -moz-transform: translate(0px);
 	 animation-delay: 3s;
 	 } 
 }
 
 
 
-
-/* ------------- */
-
-
-
-/*
-
-:target {
-  -webkit-animation: highlight 1s ease-in-out;  
-  -moz-animation: highlight 1s ease-in-out; 
-  animation: highlight 1s ease-in-out;
-  
-  -webkit-transition: all 0.5s ease-in-out; 
-  -moz-transition: all 0.5s ease-in-out; 
-  transition: all 0.5s ease-in-out;  
-}
-
-@-webkit-keyframes highlight {
-  0% { border-left-color: red; }
-  100% { border-left-color: white; }
-}
-@-moz-keyframes highlight {
-  0% { border-left-color: red; }
-  100% { border-left-color: white; }
-}   
-@keyframes highlight {
-  0% { border-left-color: red; }
-  100% { border-left-color: white; }
-}   
-
-*/
-
-
-
-/* POKEBALL */
+/* pokeball on index */
 #pokeball {
 	float: relative;
 }
  
 #pokered {
-	position: absolute; height:150px; width:300px; background-color: #FF0000; top: 120px; margin-left:100px; border-radius: 400px 400px 0px 0px; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+	position: absolute; 
+	height:150px; 
+	width:300px; 
+	background-color: #FF0000; 
+	top: 120px; 
+	margin-left:100px; 
+	border-radius: 400px 400px 0px 0px; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
 #pokeball:hover #pokered {
-	top:20px; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+	top:20px; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
-#pokered img 
-{border-radius: 400px 400px 0px 0px;
+
+#pokered img {
+	border-radius: 400px 400px 0px 0px;
 }
  
 #pokewhite {
-	position:relative; height:150px; width:300px; background-color: #fff; margin-top: 1px; margin-left:100px; border-radius: 0px 0px 400px 400px; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+	position:relative; 
+	height:150px; 
+	width:300px; 
+	background-color: #fff; 
+	margin-top: 1px; 
+	margin-left:100px; 
+	border-radius: 0px 0px 400px 400px; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out; 
+	transition: all .5s ease-in-out;
 }
+
 #pokeball:hover #pokewhite {
-	top:-10px; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+	top:-10px; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
 #pokewhite img {
 	border-radius: 0px 0px 500px 500px;
 }
  
 #pokeblack {
-	position:relative; height:14px; width:300px; background-color: #000; top:270px; margin-left:100px;
+	position:relative; 
+	height:14px; 
+	width:300px; 
+	background-color: #000; 
+	top:270px; 
+	margin-left:100px;
 	}
  
 #pokecircle {
-	position:fixed; height:45px; width:45px; background-color: #fff; top:249px; margin-left: 225px; border: #000 solid 10px; z-index:9999; border-radius: 400px 400px 400px 400px;
+	position:fixed; 
+	height:45px; 
+	width:45px; 
+	background-color: #fff; 
+	top:249px; 
+	margin-left: 225px; 
+	border: #000 solid 10px; 
+	z-index:9999; 
+	border-radius: 400px 400px 400px 400px;
 }
  
 #pokehover {
-	font-family: 'Overlock', cursive; top:230px; margin-left:500px; position:fixed; z-index:99999; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out; font-size:55px; letter-spacing:2px; color: #000;
-}
-#pokeball:hover #pokehover {
-	opacity:0; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+	font-family: 'Overlock', cursive; 
+	font-size:55px; 
+	letter-spacing:2px; 
+	color: #000;
+	top:230px; 
+	margin-left:500px; 
+	position:fixed; 
+	z-index:99999; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out; 
 }
 
-#pokedesc {width:290px; padding:5px; padding-top:0px; height:0px; background-color:rgba(0,0,0,0.1); color: #444444; position:relative; margin-left:100px; margin-top:260px; line-height:16px; font-size:30px; opacity:0; -moz-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out; text-align:justify; overflow: hidden; text-align: center; font-family: 'Roboto Slab', serif;
+#pokeball:hover #pokehover {
+	opacity:0; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#pokedesc {
+	width:290px; 
+	padding:5px; 
+	padding-top:0px; 
+	height:0px; 
+	background-color:rgba(0,0,0,0.1); 
+	color: #444444; 
+	position:relative; 
+	margin-left:100px; 
+	margin-top:260px; 
+	line-height:16px; 
+	font-size:30px; 
+	opacity:0; 
+	-webkit-transition: all .5s ease-in-out; 
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out; 
+	text-align:justify; 
+	overflow: hidden; 
+	text-align: center; 
+	font-family: 'Roboto Slab', serif;
 }
  
-#pokeball:hover #pokedesc {position: relative; margin-left: 500px; height: 74px; padding-top:35px; opacity:1; transition: all .5s ease-in-out; font-size: 30px; border-radius: 20px; text-align: center;
+#pokeball:hover #pokedesc {
+	position: relative;
+	 margin-left: 500px; 
+	 height: 74px; 
+	 padding-top:35px;
+	 opacity:1; 
+	 transition: all .5s ease-in-out; 
+	 font-size: 30px; 
+	 border-radius: 20px; 
+	 text-align: center;
 }
+
 
